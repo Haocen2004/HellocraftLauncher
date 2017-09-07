@@ -125,13 +125,19 @@
 	/// </summary>
 	public class LauncherCoreCreationOption
 	{
-		/// <summary>
-		///     核心选项
-		/// </summary>
-		/// <param name="gameRootPath">游戏根目录，默认为 ./.minecraft </param>
-		/// <param name="javaPath">JAVA地址，默认为自动搜寻所的第一个</param>
-		/// <param name="versionLocator">Version定位器，默认为 JVersionLoacator</param>
-		public LauncherCoreCreationOption(string gameRootPath = null, string javaPath = null, IVersionLocator versionLocator = null)
+        private object javaPath;
+        private object gameRootPath;
+        private object versionLocator;
+        private Version version;
+        private object locator;
+
+        /// <summary>
+        ///     核心选项
+        /// </summary>
+        /// <param name="gameRootPath">游戏根目录，默认为 ./.minecraft </param>
+        /// <param name="javaPath">JAVA地址，默认为自动搜寻所的第一个</param>
+        /// <param name="versionLocator">Version定位器，默认为 JVersionLoacator</param>
+        public LauncherCoreCreationOption(string gameRootPath = null, string javaPath = null, IVersionLocator versionLocator = null)
 		{
 			GameRootPath = new DirectoryInfo(gameRootPath ?? ".minecraft").FullName;
 			JavaPath = javaPath ?? SystemTools.FindJava().FirstOrDefault();
@@ -142,10 +148,19 @@
 			}
 		}
 
-		/// <summary>
-		///     游戏根目录
-		/// </summary>
-		public string GameRootPath { get; internal set; }
+        public LauncherCoreCreationOption(object javaPath, object gameRootPath, object versionLocator, Version version, object locator)
+        {
+            this.javaPath = javaPath;
+            this.gameRootPath = gameRootPath;
+            this.versionLocator = versionLocator;
+            this.version = version;
+            this.locator = locator;
+        }
+
+        /// <summary>
+        ///     游戏根目录
+        /// </summary>
+        public string GameRootPath { get; internal set; }
 
 		/// <summary>
 		///     JAVA地址
