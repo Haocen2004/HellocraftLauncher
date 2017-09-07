@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMCCC.Basic", "KMCCC.Basic\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMCCC.Pro", "KMCCC.Pro\KMCCC.Pro.csproj", "{4270E717-21EE-46CF-A55A-B8AF33BBCB54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HellocraftLauncher", "HellocraftLauncher\HellocraftLauncher.csproj", "{7355B50C-D97A-41B3-ABD9-684EE465ADE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launcher", "Launcher\Launcher.csproj", "{9E1C39B0-D3FE-469A-8628-B1F1A74307E6}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -36,10 +36,10 @@ Global
 		{4270E717-21EE-46CF-A55A-B8AF33BBCB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4270E717-21EE-46CF-A55A-B8AF33BBCB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4270E717-21EE-46CF-A55A-B8AF33BBCB54}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7355B50C-D97A-41B3-ABD9-684EE465ADE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7355B50C-D97A-41B3-ABD9-684EE465ADE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7355B50C-D97A-41B3-ABD9-684EE465ADE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7355B50C-D97A-41B3-ABD9-684EE465ADE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E1C39B0-D3FE-469A-8628-B1F1A74307E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E1C39B0-D3FE-469A-8628-B1F1A74307E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E1C39B0-D3FE-469A-8628-B1F1A74307E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E1C39B0-D3FE-469A-8628-B1F1A74307E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
