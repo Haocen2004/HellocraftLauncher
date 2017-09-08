@@ -71,7 +71,12 @@
 		///     Jar文件（Id）
 		/// </summary>
 		public string JarId { get; set; }
-	}
+
+        public static implicit operator Version(double v)
+        {
+            throw new NotImplementedException();
+        }
+    }
 
 	/// <summary>
 	///     表示库
