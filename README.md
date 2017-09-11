@@ -1,3 +1,2 @@
-Hellocraft Launcher
+Hellocraft Launcher <img src="https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva?retina=true">
 =====
-<img src="https://ci.appveyor.com/api/projects/status/jhnuob079kkusdi1?retina=true">
